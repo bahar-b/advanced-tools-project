@@ -20,6 +20,14 @@ h3 {
   font-size: 24px;
   opacity: 0.7;
 }
+@media (max-width: 576px) {
+  .col-md-6 img{
+    display:none;
+  }
+  h1{
+    font-size:34px;
+  }
+}
 .buttons {
   display: flex;
   justify-content: center;
